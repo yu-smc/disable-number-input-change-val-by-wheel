@@ -1,0 +1,12 @@
+{
+  "name": "disable-number-input-change-val-by-wheel",
+  "description": "input type'number' のDOM要素内でマウスドラッグ時に値が変わるのを防ぐChrome拡張機能",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {},
+  "background": {
+    "service_worker": "background.js"
+  }
+}
